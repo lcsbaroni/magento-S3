@@ -1,11 +1,11 @@
 <?php
-namespace MediaStorage\S3\Model\Config\Source;
+namespace MediaStorage\Web\Model\Config\Source;
 
 class Region implements \Magento\Framework\Option\ArrayInterface
 {
     private $helper;
 
-    public function __construct(\MediaStorage\S3\Helper\S3 $helper)
+    public function __construct(\MediaStorage\Web\Helper\S3 $helper)
     {
         $this->helper = $helper;
     }

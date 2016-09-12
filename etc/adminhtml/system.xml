@@ -7,7 +7,7 @@
         <section id="media_storage" type="text" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>S3</label>
             <tab>media_storage_extensions</tab>
-            <resource>MediaStorage::config_s3</resource>
+            <resource>Media_Storage::config_s3</resource>
             <group id="general_s3" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General</label>
                 <field id="access_key" type="text" showInDefault="1" showInWebsite="1" showInStore="1">

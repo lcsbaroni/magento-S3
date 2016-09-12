@@ -14,7 +14,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MediaStorage\\S3\\": ""
+      "MediaStorage\\Web\\": ""
     }
   },
   "require": {

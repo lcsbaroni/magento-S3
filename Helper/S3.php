@@ -1,5 +1,5 @@
 <?php
-namespace MediaStorage\S3\Helper;
+namespace MediaStorage\Web\Helper;
 
 class S3
 {

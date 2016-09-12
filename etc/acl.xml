@@ -6,7 +6,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="MediaStorage::config_s3" title="Media Storage S3 Section" sortOrder="1000" />
+                            <resource id="Media_Storage::config_s3" title="Media Storage S3 Section" sortOrder="1000" />
                         </resource>
                     </resource>
                 </resource>
