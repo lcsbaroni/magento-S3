@@ -1,0 +1,23 @@
+{
+  "name": "lcsbaroni/magento-s3",
+  "description": "Use Amazon S3 as the file storage backend for your store.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Baroni",
+      "email": "luis.baroni@chaordicsystems.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MediaStorage\\S3\\": ""
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "3.x"
+  }
+}

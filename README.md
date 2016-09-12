@@ -1,2 +1,2 @@
 # magento-S3
-S3 module for magento.
+Use Amazon S3 as the file storage backend for your store.
