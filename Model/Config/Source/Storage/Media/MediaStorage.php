@@ -16,7 +16,7 @@ class MediaStorage extends \Magento\MediaStorage\Model\Config\Source\Storage\Med
     {
         $data = parent::toOptionArray();
         $data[] = [
-            'value' => \MediaStorage\S3\Helper\Data::STORAGE_MEDIA_S3,
+            'value' => \MediaStorage\Web\Helper\Data::STORAGE_MEDIA_S3,
             'label' => __('Amazon S3'),
         ];
 
