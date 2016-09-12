@@ -1,2 +1,2 @@
-# magento-S3
-Use Amazon S3 as the file storage backend for your store.
+# magento-media-storage
+Configure media storage backend for your store.

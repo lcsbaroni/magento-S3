@@ -1,6 +1,6 @@
 {
-  "name": "lcsbaroni/magento-s3",
-  "description": "Use Amazon S3 as the file storage backend for your store.",
+  "name": "lcsbaroni/magento-media-storage",
+  "description": "Configure media storage backend for your store.",
   "type": "magento2-module",
   "license": "MIT",
   "authors": [
@@ -18,6 +18,6 @@
     }
   },
   "require": {
-    "aws/aws-sdk-php": "3.x"
+    "league/flysystem-aws-s3-v3": "1.0.*"
   }
 }
